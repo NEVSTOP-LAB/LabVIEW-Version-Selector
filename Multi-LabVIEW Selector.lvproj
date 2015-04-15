@@ -34,9 +34,6 @@
 		<Item Name="support" Type="Folder" URL="../support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="UI" Type="Folder" URL="../UI">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="resource" Type="Folder" URL="../resource">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
