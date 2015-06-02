@@ -65,7 +65,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.exe</Property>
@@ -145,7 +145,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D31420B6-6298-490E-AE0E-0DA742D500CA}</Property>
 				<Property Name="INST_productName" Type="Str">Multi-LabVIEW Selector</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008047</Property>
 				<Property Name="MSI_arpCompany" Type="Str">nevstop</Property>
@@ -153,6 +153,7 @@
 				<Property Name="MSI_distID" Type="Str">{199560BE-557D-4632-9124-21A5C9099A1B}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{5EE20B97-F9B0-4C9D-867A-F9D5869C5F57}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">2015.6.2 Bug Fix. Support network disk.</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
