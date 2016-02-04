@@ -38,7 +38,10 @@
 		<Item Name="resource" Type="Folder" URL="../resource">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="UI" Type="Folder" URL="../UI">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -48,6 +51,23 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="SharedData.lvlib" Type="Library" URL="/&lt;vilib&gt;/NEVSTOP/Shared Data Library/SharedData/SharedData.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="gxml_Generator.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_Generator.vi"/>
+				<Item Name="gxml_ConcatGXMLStrings.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_ConcatGXMLStrings.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="gxml_ReadXMLfromFile.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_ReadXMLfromFile.vi"/>
+				<Item Name="gxml_SearchParser.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_SearchParser.vi"/>
+				<Item Name="gxml_QuickParser.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_QuickParser.vi"/>
+				<Item Name="gmxl_PolyParse.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gmxl_PolyParse.vi"/>
+				<Item Name="gxml_WriteXMLtoFile.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_WriteXMLtoFile.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -66,9 +86,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -80,13 +100,21 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/app.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{39647334-6B2F-4605-AD2C-FFFB17B1AE4C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{773AABAB-6DB4-4523-A73B-A5A2CE7964FD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UI/Working Window.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/UI/Configuration Window.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Nevstop</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Multi-LabVIEW Selector</Property>
 				<Property Name="TgtF_internalName" Type="Str">Multi-LabVIEW Selector</Property>
@@ -153,7 +181,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D31420B6-6298-490E-AE0E-0DA742D500CA}</Property>
 				<Property Name="INST_productName" Type="Str">Multi-LabVIEW Selector</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.2.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14008034</Property>
 				<Property Name="MSI_arpCompany" Type="Str">nevstop</Property>
