@@ -86,7 +86,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector.exe</Property>
@@ -99,8 +99,8 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/app.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{773AABAB-6DB4-4523-A73B-A5A2CE7964FD}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/File.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6A28BA26-AFD6-4560-A97C-EA384EE23713}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UI/Working Window.vi</Property>
@@ -122,6 +122,58 @@
 				<Property Name="TgtF_productName" Type="Str">Multi-LabVIEW Selector</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0D409103-E981-4697-973C-5AAD52BDD59E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Multi-LabVIEW Selector.exe</Property>
+			</Item>
+			<Item Name="Multi-LabVIEW Selector(Project)" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{55991F03-800D-44DF-8E3C-37411FF173A7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{27B3F2BA-8A93-4B90-82C1-CE364F434419}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{82285327-24EB-43D3-977C-221E9A9FC333}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Multi-LabVIEW Selector(Project)</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8007454E-C46D-46FD-8FFD-93A931EBDD4D}</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector(Project).exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/Multi-LabVIEW Selector(Project).exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/Project.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D461E631-5CA8-4573-A911-171E7951B595}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UI/Working Window.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/UI/Configuration Window.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Nevstop</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Multi-LabVIEW Selector(Project)</Property>
+				<Property Name="TgtF_internalName" Type="Str">Multi-LabVIEW Selector(Project)</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2015 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">Multi-LabVIEW Selector(Project)</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C7D4FF5C-9458-4A4E-BA3A-2CACDBEEDAAA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Multi-LabVIEW Selector(Project).exe</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Multi-LabVIEW Selector</Property>
