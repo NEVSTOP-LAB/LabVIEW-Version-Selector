@@ -53,21 +53,44 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="SharedData.lvlib" Type="Library" URL="/&lt;vilib&gt;/NEVSTOP/Shared Data Library/SharedData/SharedData.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="gxml_Generator.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_Generator.vi"/>
-				<Item Name="gxml_ConcatGXMLStrings.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_ConcatGXMLStrings.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="gxml_ReadXMLfromFile.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_ReadXMLfromFile.vi"/>
-				<Item Name="gxml_SearchParser.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_SearchParser.vi"/>
-				<Item Name="gxml_QuickParser.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_QuickParser.vi"/>
-				<Item Name="gmxl_PolyParse.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gmxl_PolyParse.vi"/>
-				<Item Name="gxml_WriteXMLtoFile.vi" Type="VI" URL="/&lt;vilib&gt;/NI/GXML/Compatibility/gxml_WriteXMLtoFile.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
+				<Item Name="gxml_Generator.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/gxml_Generator.vi"/>
+				<Item Name="gxml_ConcatGXMLStrings.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/Utility VIs/gxml_ConcatGXMLStrings.vi"/>
+				<Item Name="gxml_ReadXMLfromFile.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/gxml_ReadXMLfromFile.vi"/>
+				<Item Name="gxml_SearchParser.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/gxml_SearchParser.vi"/>
+				<Item Name="gxml_QuickParser.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Quick Parser/gxml_QuickParser.vi"/>
+				<Item Name="gmxl_PolyParse.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/gmxl_PolyParse.vi"/>
+				<Item Name="gxml_WriteXMLtoFile.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/gxml_WriteXMLtoFile.vi"/>
+				<Item Name="gxml_RcrsvFlatten.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Main Rcrsv/gxml_RcrsvFlatten.vi"/>
+				<Item Name="gxml_NameFilter.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Char Compliance/gxml_NameFilter.vi"/>
+				<Item Name="gxml_UnflattenAndScanItem.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Item to XML/gxml_UnflattenAndScanItem.vi"/>
+				<Item Name="gxml_GetEnumTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Item to XML/gxml_GetEnumTxt.vi"/>
+				<Item Name="gxml_EscapeChars.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Char Compliance/gxml_EscapeChars.vi"/>
+				<Item Name="gxml_InsertAttr.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Bld Attributes/gxml_InsertAttr.vi"/>
+				<Item Name="gxml_DuplicateTagChk.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Char Compliance/gxml_DuplicateTagChk.vi"/>
+				<Item Name="gxml_BldClusterAttr.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Bld Attributes/gxml_BldClusterAttr.vi"/>
+				<Item Name="gxml_GetArrayDim.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Array Header/gxml_GetArrayDim.vi"/>
+				<Item Name="gxml_BldArrayAttr.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Bld Attributes/gxml_BldArrayAttr.vi"/>
+				<Item Name="gxml_BldTypeAttr.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Generator/Bld Attributes/gxml_BldTypeAttr.vi"/>
+				<Item Name="gxml_RcrsvParse.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Main Rcrsv/gxml_RcrsvParse.vi"/>
+				<Item Name="gxml_GetTagContents.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/XML Tag Contents/gxml_GetTagContents.vi"/>
+				<Item Name="gxml_TypeCheck.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/XML Tag Contents/gxml_TypeCheck.vi"/>
+				<Item Name="gxml_XMLtoFlatString.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Flatten XML/gxml_XMLtoFlatString.vi"/>
+				<Item Name="gxml_TimeCheck.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Flatten XML/gxml_TimeCheck.vi"/>
+				<Item Name="gxml_CheckEnumTxt.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Flatten XML/gxml_CheckEnumTxt.vi"/>
+				<Item Name="gxml_UnescapeChar.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Flatten XML/gxml_UnescapeChar.vi"/>
+				<Item Name="gxml_GetArrayElementInfo.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Parse Array Info/gxml_GetArrayElementInfo.vi"/>
+				<Item Name="gxml_XMLArraySizes.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML SearchParser/Parse Array Info/gxml_XMLArraySizes.vi"/>
+				<Item Name="gxml_BlindExtractType.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Quick Parser/gxml_BlindExtractType.vi"/>
+				<Item Name="gxml_BlindXMLtoFlatString.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Quick Parser/gxml_BlindXMLtoFlatString.vi"/>
+				<Item Name="gxml_BlindArraySize.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Quick Parser/gxml_BlindArraySize.vi"/>
+				<Item Name="gxml_Error74.vi" Type="VI" URL="/&lt;userlib&gt;/GXML/_subVIis/GXML Quick Parser/gxml_Error74.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -86,7 +109,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector.exe</Property>
@@ -138,7 +161,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8007454E-C46D-46FD-8FFD-93A931EBDD4D}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector(Project).exe</Property>
@@ -233,7 +256,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D31420B6-6298-490E-AE0E-0DA742D500CA}</Property>
 				<Property Name="INST_productName" Type="Str">Multi-LabVIEW Selector</Property>
-				<Property Name="INST_productVersion" Type="Str">1.2.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.2.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14008034</Property>
 				<Property Name="MSI_arpCompany" Type="Str">nevstop</Property>
