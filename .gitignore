@@ -42,24 +42,6 @@ ipch/
 
 # Directories
 #----------------------------------
-_VIP/
-/src/Engine/_test/Debug Module.xml
-/src/Engine/_test/Drived Class.xml
-/src/Engine/_test/Module Object.xml
-/src/Engine/_test/\[Engine\]data.xml
-/src/Engine/_test/\[Engine\]status.xml
-/src/Engine/_test/\[Enging\]Cmd.xml
-UI.xml
-\[Engine\]data.xml
-\[Engine\]status.xml
-\[Enging\]Cmd.xml
-Data Gen Module.xml
-Debug Module.xml
-TCP Module(Client).xml
-TCP Module(Server).xml
-Cmd Genrerator.xml
-CMD Receiver.xml
-/src/_test/Module Object.xml
-/Backup/VISN Data Logger
-/Build
-/installer
+Multi-LabVIEW Selector.exe
+Multi-LabVIEW Selector.ini
+Multi-LabVIEW Selector.aliases
