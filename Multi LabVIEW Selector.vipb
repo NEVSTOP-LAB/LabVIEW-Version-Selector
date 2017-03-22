@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-19 16:57:22" Modified_Date="2017-03-20 10:57:20" Creator="adkoxj73120" Comments="" ID="26c7d4130702d0072f6481033ee67c34">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-03-19 16:57:22" Modified_Date="2017-03-22 13:44:36" Creator="adkoxj73120" Comments="" ID="5de370d4f5b7cc3326ba4ab604f69946">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_Util_Multi_LabVIEW_Selector</Package_File_Name>
-    <Library_Version>1.3.0.10</Library_Version>
+    <Library_Version>1.3.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>_vip</Library_Output_Folder>
+    <Library_Output_Folder>Build</Library_Output_Folder>
     <Company_Name>NEVSTOP</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -31,7 +31,7 @@
       <Pre-Install_VI/>
       <Post-Install_VI>_vip_support\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
-      <Post-Uninstall_VI/>
+      <Post-Uninstall_VI>_vip_support\Post-Uninstall Custom Action.vi</Post-Uninstall_VI>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Multi LabVIEW Selector.vipc</VI_Package_Configuration_File>
     <Description>
@@ -79,7 +79,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\_NEVSTOP\Multi LabVIEW Selector</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -106,20 +106,8 @@
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
-        <Destination>0</Destination>
+        <Destination>7</Destination>
         <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>_src</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>_vip_support</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -136,13 +124,13 @@
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Multi-LabVIEW Selector.exe</Path>
+        <Path>_vip_support</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Multi-LabVIEW Selector.ini</Path>
+        <Path>Build</Path>
       </Exclusions>
       <Exclusions>
-        <Path>_vip</Path>
+        <Path>[config].ini</Path>
       </Exclusions>
       <Exclusions>
         <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
@@ -200,7 +188,7 @@
       <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
-      <close_labview_before_install>false</close_labview_before_install>
+      <close_labview_before_install>true</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>

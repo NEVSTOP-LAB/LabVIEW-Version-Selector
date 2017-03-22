@@ -42,7 +42,6 @@ ipch/
 
 # Directories
 #----------------------------------
-Multi-LabVIEW Selector.exe
-Multi-LabVIEW Selector.ini
-Multi-LabVIEW Selector.aliases
 _vip/
+Build/
+*.ini
