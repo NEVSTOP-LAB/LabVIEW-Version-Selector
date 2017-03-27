@@ -1,4 +1,7 @@
-#Multi-LabVIEW Selector
+Multi-LabVIEW Selector
+===================================
+
+Automatically Select the correct LabVIEW version to open LabVIEW files.
 
 
 LabVIEW in these folders will be discovered:    
@@ -11,7 +14,7 @@ LabVIEW in these folders will be discovered:
  - F:\Program Files\National Instruments
  - F:\Program Files (x86)\National Instruments
 
-Automatically register current filetype:    
+Automatically register filetypes of:    
  - .lvproj
  - .lvlib
  - .lvclass
