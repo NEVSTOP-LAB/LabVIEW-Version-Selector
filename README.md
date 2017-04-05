@@ -22,4 +22,10 @@ Automatically register filetypes of:
  - .vi
  - .vit
  - .ctl
- - .xctl
+ - .xctl 
+ - .lvlibp
+ - .lvsc
+ - .lvtest
+ - .lvr
+ - .lvrbt
+ - .lvvect
