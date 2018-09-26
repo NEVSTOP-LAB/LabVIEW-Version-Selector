@@ -3,6 +3,11 @@ Multi-LabVIEW Selector
 
 Automatically Select the correct LabVIEW version to open LabVIEW files.
 
+## Attention
+
+   1. You need to run VIPM as administor, bucause the installing process need to change windows registry。
+   2. Currently, you need to associate related file extensions to the build exe manually. The built exe locates here: [LabVIEW]\project\_NEVSTOP\Multi-LabVIEW Selector\Build.  
+   
 
 LabVIEW in these folders will be discovered:    
  - C:\Program Files\National Instruments
@@ -13,8 +18,9 @@ LabVIEW in these folders will be discovered:
  - E:\Program Files (x86)\National Instruments
  - F:\Program Files\National Instruments
  - F:\Program Files (x86)\National Instruments
+ 
 
-Automatically register filetypes of:    
+Related filetypes of:    
  - .lvproj
  - .lvlib
  - .lvclass
