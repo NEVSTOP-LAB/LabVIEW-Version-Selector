@@ -35,3 +35,8 @@ Related filetypes of:
  - .lvr
  - .lvrbt
  - .lvvect
+
+## Dependencies
+
+ - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
+ - [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)

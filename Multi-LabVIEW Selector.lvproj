@@ -74,6 +74,22 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
+				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
+				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
+				<Item Name="Write Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple.vi"/>
+				<Item Name="Write Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple STR.vi"/>
+				<Item Name="Write Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value.vi"/>
+				<Item Name="Write Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value STR.vi"/>
+				<Item Name="Write Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value DWORD.vi"/>
+				<Item Name="Write Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value Simple U32.vi"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Close Generic Object Refnum (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar)__ogtk.vi"/>
@@ -136,9 +152,69 @@
 				<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String Array)__ogtk.vi"/>
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
 				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
+				<Item Name="Write INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write INI Cluster__ogtk.vi"/>
+				<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
+			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="RegExt" Type="EXE">
+				<Property Name="App_INI_aliasGUID" Type="Str">{02BB5AA0-0B1E-438D-8189-ED079579AC80}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{76DD8292-6D25-4817-8AF3-02936E8F93D6}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.manifest" Type="Ref">/My Computer/resource/vista.adminUser.manifest</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DEDFE19D-27C9-4010-9AEE-4A3BC21685EC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RegExt</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/resource/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{15D58201-01B6-4D04-AF7F-C438E0D63FD6}</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">RegExt.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/RegExt.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F2E0DA8-BBBB-4AA6-8392-91912C7AC020}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/application.lvclass</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/application.lvclass/application.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/application.lvclass/RegisterExt.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">NEVSTOP</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Regext - Multi-LabVIEW Selector</Property>
+				<Property Name="TgtF_internalName" Type="Str">Regext - Multi-LabVIEW Selector</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2015 NEVSTOP</Property>
+				<Property Name="TgtF_productName" Type="Str">Regext</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{679EFBEC-F76D-4950-9360-0F2743F02E88}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">RegExt.exe</Property>
+			</Item>
 			<Item Name="Multi-LabVIEW Selector" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{4BA35AA7-3C23-4AED-AD2F-38C82E30055D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4D69A033-D052-4872-A47B-14BB417FF73D}</Property>
@@ -155,7 +231,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/resource/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Multi-LabVIEW Selector.exe</Property>
