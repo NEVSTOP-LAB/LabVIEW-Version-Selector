@@ -1,6 +1,6 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-26 13:38:50" Creator="adkoxj73120" Comments="" ID="9b1510d96b6da2e17c8c2656f8788149">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-26 13:48:03" Creator="adkoxj73120" Comments="" ID="5457c062ec0cd95a92acbdd7aa07af2b">
   <Library_General_Settings>
-    <Package_File_Name>NEVSTOP_Util_LabVIEW_Version_Selector</Package_File_Name>
+    <Package_File_Name>LabVIEW_Version_Selector</Package_File_Name>
     <Library_Version>2.0.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
