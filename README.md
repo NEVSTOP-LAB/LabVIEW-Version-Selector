@@ -1,7 +1,17 @@
-Multi-LabVIEW Selector
+LabVIEW Version Selector
 ===================================
 
 Automatically Select the correct LabVIEW version to open LabVIEW files.
+
+## Development Envrionment
+
+ - LabVEW 2014
+ - VIPM 2020.3
+
+### Dependencies
+
+ - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
+ - [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
 
 ## Attention
 
@@ -35,8 +45,3 @@ Related filetypes of:
  - .lvr
  - .lvrbt
  - .lvvect
-
-## Dependencies
-
- - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
- - [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
