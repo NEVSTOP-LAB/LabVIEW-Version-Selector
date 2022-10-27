@@ -178,26 +178,28 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../LabVIEW Version Selector/Build</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW Version Selector.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../LabVIEW Version Selector/Build/LabVIEW Version Selector.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/LabVIEW Version Selector.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../LabVIEW Version Selector/Build</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">SigCheck</Property>
-				<Property Name="Destination[2].path" Type="Path">../LabVIEW Version Selector/Build/SigCheck</Property>
+				<Property Name="Destination[2].path" Type="Path">../Build/SigCheck</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/app.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9325D621-8AB5-4DBB-9894-F06429DFF7FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A85E59A5-935D-4473-B174-36DF1BCC8B5B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/application.lvclass</Property>
@@ -238,7 +240,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{997CCF92-FE59-426B-99F5-91767567D53D}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW Version Selector.exe</Property>
@@ -255,7 +257,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/resource/app.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9325D621-8AB5-4DBB-9894-F06429DFF7FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B7E829C-D78B-4380-8B85-F4A8323448E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/application.lvclass</Property>
@@ -274,10 +276,10 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NEVSTOP</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">LabVIEW-Version-Selector</Property>
-				<Property Name="TgtF_internalName" Type="Str">LabVIEW-Version-Selector</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LabVIEW Version Selector</Property>
+				<Property Name="TgtF_internalName" Type="Str">LabVIEW Version Selector</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2015 NEVSTOP</Property>
-				<Property Name="TgtF_productName" Type="Str">LabVIEW-Version-Selector</Property>
+				<Property Name="TgtF_productName" Type="Str">LabVIEW Version Selector</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{33DAE294-2234-4678-AB3B-C98668264085}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW Version Selector.exe</Property>
 			</Item>
