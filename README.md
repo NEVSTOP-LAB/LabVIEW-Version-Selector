@@ -22,15 +22,13 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
 ## Attention
 
    1. Currently, you need to associate related file extensions to the build exe manually with double clicking the Registry Patch File.  
-   
-
-LabVIEW in these folders will be discovered:    
- - C:\Program Files\National Instruments
- - C:\Program Files (x86)\National Instruments
- - D:\Program Files\National Instruments
- - D:\Program Files (x86)\National Instruments
- - E:\Program Files\National Instruments
- - E:\Program Files (x86)\National Instruments
- - F:\Program Files\National Instruments
- - F:\Program Files (x86)\National Instruments
+   2. LabVIEW in these folders will be discovered:    
+         - C:\Program Files\National Instruments
+         - C:\Program Files (x86)\National Instruments
+         - D:\Program Files\National Instruments
+         - D:\Program Files (x86)\National Instruments
+         - E:\Program Files\National Instruments
+         - E:\Program Files (x86)\National Instruments
+         - F:\Program Files\National Instruments
+         - F:\Program Files (x86)\National Instruments
  
