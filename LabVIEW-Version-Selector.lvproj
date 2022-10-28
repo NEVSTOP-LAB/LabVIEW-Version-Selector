@@ -34,7 +34,6 @@
 			<Item Name="OSArchitecture.vi" Type="VI" URL="../support/cmd/OSArchitecture.vi"/>
 			<Item Name="SigCheck.vi" Type="VI" URL="../support/cmd/SigCheck.vi"/>
 			<Item Name="assoc.vi" Type="VI" URL="../support/cmd/assoc.vi"/>
-			<Item Name="RegisterPatchGenerator.vi" Type="VI" URL="../support/cmd/RegisterPatchGenerator.vi"/>
 			<Item Name="Open Explorer Window.vi" Type="VI" URL="../support/cmd/Open Explorer Window.vi"/>
 		</Item>
 		<Item Name="_obsolete" Type="Folder" URL="../_obsolete">
@@ -44,6 +43,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="application.lvclass" Type="LVClass" URL="../application.lvclass"/>
+		<Item Name="RegisterPatchGenerator.vi" Type="VI" URL="../RegisterPatchGenerator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
@@ -199,7 +199,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DD676F47-F0F4-4760-9B2B-9815246A04D2}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW Version Selector.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/LabVIEW Version Selector.exe</Property>

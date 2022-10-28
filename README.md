@@ -15,8 +15,7 @@ Automatically Select the correct LabVIEW version to open LabVIEW files.
 
 ## Attention
 
-   1. You need to run VIPM as administor, bucause the installing process need to change windows registry。
-   2. Currently, you need to associate related file extensions to the build exe manually. The built exe locates here: [LabVIEW]\project\_NEVSTOP\Multi-LabVIEW Selector\Build.  
+   1. Currently, you need to associate related file extensions to the build exe manually with double clicking the Registry Patch File.  
    
 
 LabVIEW in these folders will be discovered:    

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-26 13:48:03" Creator="adkoxj73120" Comments="" ID="5457c062ec0cd95a92acbdd7aa07af2b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-28 15:04:40" Creator="adkoxj73120" Comments="" ID="36f4e42cba53fb7296d5a7293fe48123">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Version_Selector</Package_File_Name>
-    <Library_Version>2.0.0.18</Library_Version>
+    <Library_Version>2.0.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Build</Library_Output_Folder>
@@ -36,7 +36,7 @@
     <VI_Package_Configuration_File>LabVIEW-Version-Selector.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Select the correct LabVIEW version for project.</One_Line_Description_Summary>
-      <Description>Multi-LabVIEW Selector
+      <Description>LabVIEW Version Selector
 ===================================
 
 Automatically Select the correct LabVIEW version to open LabVIEW files.
@@ -169,10 +169,13 @@ Automatically register filetypes of:
         <Path>.gitignore</Path>
       </Exclusions>
       <Exclusions>
-        <Path>_vip_support</Path>
+        <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
       </Exclusions>
       <Exclusions>
-        <Path>DEV ENVIRONMENT LabVIEW 2014</Path>
+        <Path>Build</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>_obsolete</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -232,7 +235,7 @@ Automatically register filetypes of:
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>false</Edit_VI_Description>
+      <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
