@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-30 15:55:06" Creator="adkoxj73120" Comments="" ID="b6171be534130241f4164c9a93656691">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-30 16:39:58" Creator="adkoxj73120" Comments="" ID="94f12e769e1fa4d2e55539a2458c7bd8">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Version_Selector</Package_File_Name>
-    <Library_Version>2.0.0.33</Library_Version>
+    <Library_Version>2.0.0.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Build</Library_Output_Folder>

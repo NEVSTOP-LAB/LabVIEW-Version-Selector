@@ -38,6 +38,7 @@
 			<Item Name="InstallRegPatchGenerator.vi" Type="VI" URL="../cmd/InstallRegPatchGenerator.vi"/>
 		</Item>
 		<Item Name="application.lvclass" Type="LVClass" URL="../Application/application.lvclass"/>
+		<Item Name="LabVIEW-Version-Selector.vipb" Type="Document" URL="../LabVIEW-Version-Selector.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
