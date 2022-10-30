@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-30 13:14:09" Creator="adkoxj73120" Comments="" ID="8233543226676ed1339fdb02f41b8b95">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-30 13:50:04" Creator="adkoxj73120" Comments="" ID="f90054f99b3e7adcb171ae7951cde481">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Version_Selector</Package_File_Name>
-    <Library_Version>2.0.0.27</Library_Version>
+    <Library_Version>2.0.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Build</Library_Output_Folder>
@@ -40,38 +40,46 @@
       <Description>LabVIEW Version Selector
 ===================================
 
-Automatically Select the correct LabVIEW version to open LabVIEW files.
+Automatically Select the correct LabVIEW version to open LabVIEW files. 
 
+Related filetypes of: `.lvproj`/`.lvlib`/`.lvclass`/`.llb`/`.vi`/`.vit`/`.ctl`/`.xctl`/`.lvlibp`/`.lvtest`
 
-LabVIEW in these folders will be discovered:    
- - C:\Program Files\National Instruments
- - C:\Program Files (x86)\National Instruments
- - D:\Program Files\National Instruments
- - D:\Program Files (x86)\National Instruments
- - E:\Program Files\National Instruments
- - E:\Program Files (x86)\National Instruments
- - F:\Program Files\National Instruments
- - F:\Program Files (x86)\National Instruments
+After `LabVIEW Version Selector.exe` is used to open file of those types, you have a chance to see the file's saved version and option to choose the version to open it.
 
-Automatically register filetypes of:    
- - .lvproj
- - .lvlib
- - .lvclass
- - .llb
- - .vi
- - .vit
- - .ctl
- - .xctl 
- - .lvlibp
- - .lvsc
- - .lvtest
- - .lvr
- - .lvrbt
- - .lvvect</Description>
+![image](https://user-images.githubusercontent.com/8196752/198526226-0ca079f3-e9c1-41de-b14c-12358854a554.png)
+
+## Development Envrionment
+
+ - LabVEW 2014
+ - VIPM 2020.3
+
+### Dependencies
+
+ - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
+ - [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
+
+## Attention
+
+   1. Please follow the instruction of post-installation action to associate related file extensions with the built exe. If you have concern on the registry operation , another opition is to manually import the install.reg file after check on it.
+   
+   ![image](https://user-images.githubusercontent.com/8196752/198864067-595e8bd5-96bf-4269-9d45-c72a9979ebca.png)
+   ![image](https://user-images.githubusercontent.com/8196752/198864102-0ac8998f-77b5-4925-8ffa-20fb20ebb6bd.png) 
+
+   2. LabVIEW in these folders will be discovered:    
+         - C:\Program Files\National Instruments
+         - C:\Program Files (x86)\National Instruments
+         - D:\Program Files\National Instruments
+         - D:\Program Files (x86)\National Instruments
+         - E:\Program Files\National Instruments
+         - E:\Program Files (x86)\National Instruments
+         - F:\Program Files\National Instruments
+         - F:\Program Files (x86)\National Instruments
+ 
+</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LIBs/LabVIEW-Version-Selector</URL>
-      <Release_Notes>Change register extension method.</Release_Notes>
+      <Release_Notes>Release 2.0.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -151,16 +159,6 @@ Automatically register filetypes of:
         <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
-      <Password_Overrides>
-        <Path>application.vi</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
-      <Password_Overrides>
-        <Path>support</Path>
-        <Password/>
-        <Locked_Only>true</Locked_Only>
-      </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
@@ -174,6 +172,9 @@ Automatically register filetypes of:
       </Exclusions>
       <Exclusions>
         <Path>_obsolete</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Build</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
