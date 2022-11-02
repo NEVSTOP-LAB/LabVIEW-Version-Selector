@@ -35,7 +35,7 @@
 			<Item Name="SigCheck.vi" Type="VI" URL="../cmd/SigCheck.vi"/>
 			<Item Name="assoc.vi" Type="VI" URL="../cmd/assoc.vi"/>
 			<Item Name="Open Explorer Window.vi" Type="VI" URL="../cmd/Open Explorer Window.vi"/>
-			<Item Name="InstallRegPatchGenerator.vi" Type="VI" URL="../cmd/InstallRegPatchGenerator.vi"/>
+			<Item Name="RegPatchGenerator.vi" Type="VI" URL="../cmd/RegPatchGenerator.vi"/>
 		</Item>
 		<Item Name="application.lvlib" Type="Library" URL="../Application/application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

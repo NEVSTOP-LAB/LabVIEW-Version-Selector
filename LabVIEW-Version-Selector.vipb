@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-10-30 16:39:58" Creator="adkoxj73120" Comments="" ID="94f12e769e1fa4d2e55539a2458c7bd8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-03-19 16:57:22" Modified_Date="2022-11-02 09:33:47" Creator="adkoxj73120" Comments="" ID="b3adb455aec881e2f9c8aa35303b28cf">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Version_Selector</Package_File_Name>
-    <Library_Version>2.0.0.34</Library_Version>
+    <Library_Version>2.0.0.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Build</Library_Output_Folder>
@@ -44,7 +44,7 @@ Automatically Select the correct LabVIEW version to open LabVIEW files.
 
 Related filetypes of: `.lvproj`/`.lvlib`/`.lvclass`/`.llb`/`.vi`/`.vit`/`.ctl`/`.xctl`/`.lvlibp`/`.lvtest`
 
-After `LabVIEW Version Selector.exe` is used to open file of those types, you have a chance to see the file's saved version and option to choose the version to open it.
+After `LabVIEW Version Selector.exe` is used to open file of those types, you have a chance to see the file's saved version and option to choose LabVIEW version to be used.
 
 ![image](https://user-images.githubusercontent.com/8196752/198526226-0ca079f3-e9c1-41de-b14c-12358854a554.png)
 
@@ -62,9 +62,11 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
 
    1. Please follow the instruction of post-installation action to associate related file extensions with the built exe. If you have concern on the registry operation , another opition is to manually import the install.reg file after check on it.
    
-   ![image](https://user-images.githubusercontent.com/8196752/198864067-595e8bd5-96bf-4269-9d45-c72a9979ebca.png)
-   ![image](https://user-images.githubusercontent.com/8196752/198864102-0ac8998f-77b5-4925-8ffa-20fb20ebb6bd.png) 
-
+   &lt;table&gt;&lt;tr&gt;
+   &lt;td&gt;&lt;img src=https://user-images.githubusercontent.com/8196752/198864067-595e8bd5-96bf-4269-9d45-c72a9979ebca.png width=400px /&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;img src=https://user-images.githubusercontent.com/8196752/198864102-0ac8998f-77b5-4925-8ffa-20fb20ebb6bd.png width=400px /&gt;&lt;/td&gt;
+   &lt;/tr&gt;&lt;/table&gt;
+ 
    2. LabVIEW in these folders will be discovered:    
          - C:\Program Files\National Instruments
          - C:\Program Files (x86)\National Instruments
