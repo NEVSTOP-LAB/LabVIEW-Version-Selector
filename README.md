@@ -1,7 +1,9 @@
 LabVIEW Version Selector
 ===================================
 
-Automatically Select the correct LabVIEW version to open LabVIEW files. 
+[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml)
+
+Automatically Select the correct LabVIEW version to open LabVIEW files.
 
 Related filetypes of: `.lvproj`/`.lvlib`/`.lvclass`/`.llb`/`.vi`/`.vit`/`.ctl`/`.xctl`/`.lvlibp`/`.lvtest`
 
@@ -22,13 +24,13 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
 ## Attention
 
    1. Please follow the instruction of post-installation action to associate related file extensions with the built exe. If you have concern on the registry operation , another opition is to manually import the install.reg file after check on it.
-   
+
    <table><tr>
    <td><img src=https://user-images.githubusercontent.com/8196752/198864067-595e8bd5-96bf-4269-9d45-c72a9979ebca.png width=400px /></td>
    <td><img src=https://user-images.githubusercontent.com/8196752/198864102-0ac8998f-77b5-4925-8ffa-20fb20ebb6bd.png width=400px /></td>
    </tr></table>
- 
-   2. LabVIEW in these folders will be discovered:    
+
+   2. LabVIEW in these folders will be discovered:
          - C:\Program Files\National Instruments
          - C:\Program Files (x86)\National Instruments
          - D:\Program Files\National Instruments
@@ -37,4 +39,4 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
          - E:\Program Files (x86)\National Instruments
          - F:\Program Files\National Instruments
          - F:\Program Files (x86)\National Instruments
- 
+
