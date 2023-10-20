@@ -1,10 +1,11 @@
 LabVIEW Version Selector
 ===================================
 
-[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Image](https://www.vipm.io/package/labview_version_selector/badge.svg?metric=installs)](https://www.vipm.io/package/labview_version_selector/)
 [![Image](https://www.vipm.io/package/labview_version_selector/badge.svg?metric=stars)](https://www.vipm.io/package/labview_version_selector/)
+[![Check_Broken_VIs](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml/badge.svg)](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/actions/workflows/Check_Broken_VIs.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/LabVIEW-Version-Selector/total)](https://github.com/NEVSTOP-LAB/LabVIEW-Version-Selector/releases)
 
 Automatically Select the correct LabVIEW version to open LabVIEW files.
 
