@@ -44,3 +44,14 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
          - F:\Program Files\National Instruments
          - F:\Program Files (x86)\National Instruments
 
+## Windows 11 WMIC support
+
+Some Windows 11 systems do not have `wmic` preinstalled.  
+If you see an error like `wmic is not recognized...`, run the script from the repository (or extracted zip) root:
+
+- Command Prompt: `cmd\install-wmic-if-missing.bat`
+- PowerShell: `.\cmd\install-wmic-if-missing.bat`
+
+The script detects whether `wmic` is missing and installs the Windows capability `WMIC~~~~0.0.1.0` automatically (administrator permission required).
+If started without administrator privileges, it will prompt for UAC elevation automatically.
+
