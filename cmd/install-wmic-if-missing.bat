@@ -7,12 +7,12 @@ if not errorlevel 1 (
     exit /b 0
 )
 
-echo WMIC is missing. Trying to install Windows capability: WMIC~~~~0.0.1.0
+echo WMIC is missing. Attempting to install Windows capability: WMIC~~~~0.0.1.0
 
 net session >nul 2>&1
 if errorlevel 1 (
     echo Requesting administrator permission...
-    powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
+    powershell -NoProfile -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
     exit /b 0
 )
 
