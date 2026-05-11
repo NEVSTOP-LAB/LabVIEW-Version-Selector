@@ -34,7 +34,7 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
    <td><img src=https://user-images.githubusercontent.com/8196752/198864102-0ac8998f-77b5-4925-8ffa-20fb20ebb6bd.png width=400px /></td>
    </tr></table>
 
- 2. LabVIEW in these folders will be discovered:
+   2. LabVIEW in these folders will be discovered:
          - C:\Program Files\National Instruments
          - C:\Program Files (x86)\National Instruments
          - D:\Program Files\National Instruments
@@ -47,9 +47,10 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
 ## Windows 11 WMIC support
 
 Some Windows 11 systems do not have `wmic` preinstalled.  
-If you see an error like `wmic is not recognized...`, run:
+If you see an error like `wmic is not recognized...`, run the script from the repository (or extracted zip) root:
 
-`cmd\install-wmic-if-missing.bat`
+- Command Prompt: `cmd\install-wmic-if-missing.bat`
+- PowerShell: `.\cmd\install-wmic-if-missing.bat`
 
 The script detects whether `wmic` is missing and installs the Windows capability `WMIC~~~~0.0.1.0` automatically (administrator permission required).
 
