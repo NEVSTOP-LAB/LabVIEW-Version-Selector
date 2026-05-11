@@ -53,4 +53,5 @@ If you see an error like `wmic is not recognized...`, run the script from the re
 - PowerShell: `.\cmd\install-wmic-if-missing.bat`
 
 The script detects whether `wmic` is missing and installs the Windows capability `WMIC~~~~0.0.1.0` automatically (administrator permission required).
+If started without administrator privileges, it will prompt for UAC elevation automatically.
 

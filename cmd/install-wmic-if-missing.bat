@@ -1,6 +1,7 @@
 @echo off
 setlocal
 set "UAC_CANCELLED=1223"
+set "ELEVATED_FLAG=--elevated"
 
 where wmic >nul 2>&1
 if not errorlevel 1 (
@@ -12,10 +13,12 @@ echo WMIC is missing. Attempting to install Windows capability: WMIC~~~~0.0.1.0
 
 net session >nul 2>&1
 if errorlevel 1 (
+    if /I "%~1"=="%ELEVATED_FLAG%" (
+        echo Failed to acquire administrator permission.
+        exit /b %UAC_CANCELLED%
+    )
     echo Requesting administrator permission...
-    powershell -NoProfile -Command ^
-    "try { $p = Start-Process -FilePath 'cmd.exe' -ArgumentList '/c ""%~f0""' -Verb RunAs -Wait -PassThru -ErrorAction Stop; exit $p.ExitCode } ^
-    catch { exit %UAC_CANCELLED% }"
+    powershell -NoProfile -Command "try { $p = Start-Process -FilePath 'cmd.exe' -ArgumentList '/c ""%~f0"" %ELEVATED_FLAG%' -Verb RunAs -Wait -PassThru -ErrorAction Stop; exit $p.ExitCode } catch { exit %UAC_CANCELLED% }"
     exit /b %errorlevel%
 )
 
