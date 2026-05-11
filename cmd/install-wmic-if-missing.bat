@@ -1,6 +1,7 @@
 @echo off
-setlocal
-set "ELEVATE_COMMAND=try { $p = Start-Process -FilePath 'cmd.exe' -ArgumentList '/c ""%~f0""' -Verb RunAs -Wait -PassThru -ErrorAction Stop; exit $p.ExitCode } catch { exit 1223 }"
+setlocal EnableExtensions EnableDelayedExpansion
+set "UAC_CANCELLED=1223"
+set "ELEVATE_COMMAND=try { $p = Start-Process -FilePath 'cmd.exe' -ArgumentList '/c ""%~f0""' -Verb RunAs -Wait -PassThru -ErrorAction Stop; exit $p.ExitCode } catch { exit !UAC_CANCELLED! }"
 
 where wmic >nul 2>&1
 if not errorlevel 1 (
