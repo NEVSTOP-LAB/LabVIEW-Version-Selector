@@ -17,11 +17,7 @@ After `LabVIEW Version Selector.exe` is used to open file of those types, you ha
 
 ## Development Envrionment
 
- - LabVEW 2014
- - VIPM 2020.3
-
-### Dependencies
-
+ - LabVEW 2017
  - [OpenG Libraries](http://sine.ni.com/nips/cds/view/p/lang/zhs/nid/209027)
  - [JKI State Machine](https://github.com/JKISoftware/JKI-State-Machine)
 
