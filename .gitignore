@@ -23,6 +23,7 @@
 Release/
 Debug/
 ipch/
+.*.UserState
 
 #VC6.0
 #----------------------------------
