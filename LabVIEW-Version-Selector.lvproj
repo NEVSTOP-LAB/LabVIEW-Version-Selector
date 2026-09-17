@@ -40,6 +40,7 @@
 			<Item Name="RegPatchGenerator.vi" Type="VI" URL="../cmd/RegPatchGenerator.vi"/>
 		</Item>
 		<Item Name="application.lvlib" Type="Library" URL="../Application/application.lvlib"/>
+		<Item Name="lvpane_probe.vi" Type="VI" URL="/C/Users/nevstop/AppData/Local/Temp/LabVIEWMCP/helpers/lvpane_probe.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LabVIEW Version Selector" Type="EXE">
